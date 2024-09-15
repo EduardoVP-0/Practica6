@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #5D9B9B;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+td{
+    vertical-align: top;
+}
+ul{
+    list-style-type:none;
+    list-style: none; /*ESTILOS DE LAS LISTAS */
+}
+ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    height: 60px;
+}
+ul li a{
+    height: 60px; /*ALTURA */
+    background-color: #333; /*COLOR DE FONDO */
+    display: block;
+    border-left: 10px solid rgb(8, 96, 179);
+    border-right: 5px solid rgb(144, 253, 111);
+    padding-left: 15px; /* SEPARACIÓN IZQUIERDA DEL TEXTO*/
+    text-decoration: none;
+    color: #bfe1f1;
+}
+ul li a:hover{
+    margin-left: 10px; /* SEPARACION AL PASAR EL MOUSE*/
+    color:#b9b7b7;
+    background-color: #0b1741;
+    box-shadow: 10px 10px 20px #000; /* SOMBRA*/
+    transform: rotate(4deg); /* MOVIMIENTO DE ROTACION*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+div{
+    color: white;
+    height: 100%;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin:10px;
+    border: 1px solid purple;
+    background-color: #509056;
+    border-radius: 15px;
+    border:solid 2px purple;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #C0C2C3;
+}
+
+.gridDiv li{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+  .gridDiv ul{
+    list-style-type: circle; 
+    padding-left: 20px;
+  }
+  .gridDiv h2{
+    text-align: justify;
+    color: white;
+    line-height: 1.5;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+  }
+  .gridDiv p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+  .gridDiv img {
+    width: 160px;
+    height: 120px;
+    object-fit: cover; /* Ajusta la imagen para llenar el área sin deformarse */
+    margin-bottom: 20px;
+  }
+  .gridDiv div {
+    text-align: center;
+  }
